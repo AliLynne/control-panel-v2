@@ -11,10 +11,10 @@ import Home from "./Components/Home";
 const App = () => {
   return (
     <Flex sx={{ flexDirection: "column", minHeight: "100vh" }}>
-      <Header title="Control Panel" />
-
       <main sx={{ width: "100%", flex: "1 1 auto" }}>
         <Router>
+          <Header title="Control Panel" />
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/books/:id" component={Book} />
