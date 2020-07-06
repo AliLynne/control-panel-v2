@@ -70,6 +70,12 @@ export const theme = {
         bg: "highlight",
       },
     },
+    close: {
+      m: 2,
+      "&:hover": {
+        cursor: "pointer",
+      },
+    },
   },
   styles: {
     Container: {
@@ -106,7 +112,13 @@ export const theme = {
     },
     a: {
       color: "primary",
+      textDecoration: "none",
       "&:hover": {
+        cursor: "pointer",
+        color: "secondary",
+      },
+      "&:active": {
+        cursor: "pointer",
         color: "secondary",
       },
     },
