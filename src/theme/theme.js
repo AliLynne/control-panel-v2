@@ -70,6 +70,12 @@ export const theme = {
         bg: "highlight",
       },
     },
+    close: {
+      m: 2,
+      "&:hover": {
+        cursor: "pointer",
+      },
+    },
   },
   styles: {
     Container: {
