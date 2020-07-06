@@ -112,7 +112,13 @@ export const theme = {
     },
     a: {
       color: "primary",
+      textDecoration: "none",
       "&:hover": {
+        cursor: "pointer",
+        color: "secondary",
+      },
+      "&:active": {
+        cursor: "pointer",
         color: "secondary",
       },
     },
