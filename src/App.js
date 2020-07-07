@@ -8,6 +8,7 @@ import Book from "./Components/Books/Book";
 import Books from "./Components/Books/Books";
 import Home from "./Components/Home";
 import Todos from "./Components/Todos/Todos";
+import Todo from "./Components/Todos/Todo";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
             <Route exact path="/" component={Home} />
             <Route path="/books/:id" component={Book} />
             <Route path="/books" component={Books} />
+            <Route path="/todos/:id" component={Todo} />
             <Route path="/todos" component={Todos} />
           </Switch>
         </Router>
